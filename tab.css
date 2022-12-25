@@ -1,0 +1,7 @@
+.grid-item {
+    width: 48%;
+}
+
+.main-content .box {
+    width: calc(49.33% - 10px);
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 992px)" href="tab.css">
+</head>
+
+<body>
+    <!-- -------Header Section-------- -->
+
+    <div class="sidebar">
+        <nav>
+            <h1 class="logo">Portfo<span class="lio">lio.</span></h1>
+            <span class="media-phone toggle-bar"><i class="fas fa-bars fa-2x"></i></span>
+            <ul class="nav-toggle-ui">
+                <li style="display: block; text-align: right;">
+                    <span class="media-phone toggle-bar"><i class="fas fa-times fa-2x"></i></span>
+                </li>
+
+                <li><a href="/">Home</a> </li>
+                <li><a href="#myinto">My Intro</a> </li>
+                <li><a href="#services">Portfolio</a> </li>
+                <li><a href="#footer">Contact Me</a> </li>
+            </ul>
+        </nav>
+        <div class="hero-section">
+            <div class="details">
+                <h1>I'm Punit <span>Bharti</span></h1>
+                <p>This is my offical Portfolio website to showes all<br>
+                    Deatils and work experience web development</p>
+                <a href="cv.pdf" target="_blank">DOWNLOAD CV</a>
+            </div>
+
+            <div id="hero_vector_pg_container">
+                <img src="shape-png-freepic-31.png" class="shape" alt="vector">
+
+                <img src="img/punit.png" class="punit">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----My Intro----- -->
+
+    <div id="myinto">
+        <div class="container">
+            <div class="row">
+                <h1 class="sub-tittle media-phone">My Intro</h1>
+                <div class="myinro-col-1">
+                    <img src="img/HCRIE2572.JPG" alt="">
+                </div>
+                <div class="myinro-col-2">
+                    <h1 class="sub-tittle media-pc">My Intro</h1>
+                    <p class="introduction">“Hi, I am Punit Bharti. I am from Faridabad. I recently complete my high
+                        school.I have a good knowledge in Web developing.
+                        <br>
+                        My qualifications and work experience make me a suitable candidate for the profile. I am looking
+                        to join your organization to explore new dimensions and for the further development of my
+                        skills.”
+                    </p>
+                    <div class="tab-tittle">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class=" tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <br>
+                            <li>Web develoment/Web developing</li>
+                            <br>
+                            <li>Learning Mode</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - 2023</span> Intership at Deepnap Softech.</li>
+                            <br>
+                            <li><span>2021 - 2022</span> Web Developer</li>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <li><span>2019 - 2022</span>&nbsp; Graduction </li>
+                        <br>
+                        <li><span>2018 - 2019</span>&nbsp; High School Education </li>
+                        <br>
+                        <li><span>2016 - 2017</span>&nbsp; Matric Education</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- -------Servics-------- -->
+
+    <div id="services">
+        <h1 class="section-title">Portfo<span class="lio">lio.</span></h1>
+
+
+        <div class="grid">
+            <div class="grid-item">
+                <div class="card">
+                    <img src="img/banner.png" alt="card-img">
+                </div>
+                <div class="card-content">
+                    <h1 class="card-header">Web development</h1>
+                    <p class="card-text">Web designers use their creative and software engineering/programming skills to
+                        design, build and improve websites. They are sometimes known as a front-end developer
+                    </p>
+                    <button class="card-btn">Visit <span>&rarr;</span></button>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <img src="img/OIP.jpg" alt="card-img">
+                </div>
+                <div class="card-content">
+                    <h1 class="card-header">Word Press</h1>
+                    <p class="card-text">WordPress was created as a standalone project all the way back in 2003,
+                        originating
+                        as an offshoot of a previous project called b2/cafelog. WordPress is open-source software, so
+                        nowadays it’s made by a huge community of contributors
+                    </p>
+                    <button class="card-btn">Visit <span>&rarr;</span></button>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <img src="img/Mera Bharat and 4 more pages - Personal - Microsoft​ Edge 18-12-2022 12_05_20.png"
+                        alt="card-img">
+                </div>
+                <div class="card-content">
+                    <h1 class="card-header">Web Responsive</h1>
+                    <p class="card-text">Web designers use their creative and software engineering/programming skills to
+                        design, build and improve websites. They are sometimes known as a front-end developer
+                    </p>
+                    <button class="card-btn">Visit <span>&rarr;</span></button>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <img src="img/Khana H Bhai.Com and 2 more pages - Personal - Microsoft​ Edge 18-12-2022 17_05_34.png"
+                        alt="card-img">
+                </div>
+                <div class="card-content">
+                    <h1 class="card-header">Khana h Bhai</h1>
+                    <p class="card-text">This project was created by me. By using Html/css project all ,
+                        originating.This is our simple responsive website.Its is a Resturant website to publish is
+                        bussiness on top.
+
+                    </p>
+                    <a href="https://punitpandit1326.github.io/UNIVERSITY-LAYOUT/" class="btn"
+                        target="_blank">View<span>&rarr;</span></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <img src="img/phool.jpg" alt="card-img">
+                </div>
+                <div class="card-content">
+                    <h1 class="card-header">Phoolwala.com</h1>
+                    <p class="card-text">WordPress was created as a standalone project all the way back in 2003,
+                        originating.<br> It is a simple layout to design a front-end and boost our skill in this flied.
+                        This is also made by Html/css project only.
+                    </p>
+                    <a href="https://punitpandit1326.github.io/flower-clone/" target="_blank"
+                        class="btn">View<span>&rarr;</span></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <img src="img/ToolTip and 2 more pages - Personal - Microsoft​ Edge 18-12-2022 17_35_57.png"
+                        alt="card-img">
+                </div>
+                <div class="card-content">
+                    <h1 class="card-header">Creative Buttons</h1>
+                    <p class="card-text">Creative toollip button its a pratice to learn something new in the css and do
+                        more project to attractive to our client and i hope i try more than projects to improve our
+                        skill.
+
+                    </p> <a href="https://punitpandit1326.github.io/creative_btn/" class="btn" target="_blank">View
+                        <span>&rarr;</span></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- -------footersection------- -->
+    <footer id="footer">
+        <div class="main-content">
+
+            <div class="left box">
+                <h2>About Us</h2>
+                <div class="content">
+                    <p style="color: #fff;">Hi I'm Punit Bharti from Faridabad(H.R). I am frotend developer and i have a
+                        good knowledge in
+                        wordpress</p>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-fa fa-facebook-f" style="color: #3b5998;font-size: 35px;"></i></a>
+                        <a href="#"><i class="fab fa-fa fa-instagram" style="color: #fd1d1d;font-size: 35px"></i></a>
+                        <a href="#"><i class="fab fa-fa fa-github-square"
+                                style="color:rgb(93, 85, 85); font-size: 35px;"></i></a>
+                        <a href="#"><i class="fab fa-fa fa-linkedin" style="color: #0072b1; font-size: 35px;"></i></a>
+                        <a href="#"><i class="fab fa-fa fa-whatsapp-square"
+                                style="color:#1a8c12; font-size: 35px;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <div class="place">
+                        <i class="fas fa-content fa-map-marker-alt"><span class="location"
+                                style="color: #fff; font-size: 20px;font-weight: 400;">&nbsp;44ft Road Titu colony
+                                Faridabad(H.R)</span></i>
+                    </div>
+                    <i class="fas fa-content fa-phone-alt"><span class="phn"
+                            style="font-size: 20px; font-weight: 400;color: #fff;">&nbsp;8826987876,782722629</span></i>
+                </div>
+                <div class="email">
+                    <i class="fas  fa-content fa-envelope-open"><span class="mail"
+                            style="color: #fff;font-size: 20px;font-weight: 400;">&nbsp;bhartipunit70@gmail.com</span></i>
+                </div>
+                <div class="location">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.21205037031!2d77.32715581451848!3d28.443023499384676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdd83b5134517%3A0xa5acaacce95e8bc0!2sTitu%20Colony%20%2F%2FChota%20Mandir!5e0!3m2!1sen!2sin!4v1671633102844!5m2!1sen!2sin"
+                        width="350" height="auto" style="border:0; border-radius: 5px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="right box">
+                <h2>Contact us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message *</div>
+                            <textarea cols="30" rows="5" required></textarea>
+                        </div>
+                        <div class="btnn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- --------JavaScirpt------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"
+        integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        $(".toggle-bar").on('click', function () {
+            $(".nav-toggle-ui").toggleClass('active')
+        })
+        $(".nav-toggle-ui a").on('click', function () {
+            $(".nav-toggle-ui").removeClass('active')
+        })
+    </script>
+</body>
+
+</html>
